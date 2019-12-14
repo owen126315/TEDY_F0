@@ -100,8 +100,8 @@ int main(void)
 	HAL_UART_Receive_IT(&huart1,&uart1_rx_temp,1);
 	HAL_UART_Receive_IT(&huart2,&uart2_rx_temp,1);
 
+	HAL_Delay(1500);
 	FN_RM01_Get_File_Num(&file_num);
-	HAL_Delay(250);
 	FN_RM01_Play_Sound("powe");
 	HAL_Delay(500);
   /* USER CODE END 2 */

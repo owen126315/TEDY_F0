@@ -37,8 +37,8 @@ TEDY_F0.list \
 all: TEDY_F0.elf secondary-outputs
 
 # Tool invocations
-TEDY_F0.elf: $(OBJS) $(USER_OBJS) /home/owen/STM32CubeIDE/workspace_1.0.2/TEDY_F0/STM32F070F6PX_FLASH.ld
-	arm-none-eabi-gcc -o "TEDY_F0.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0 -T"/home/owen/STM32CubeIDE/workspace_1.0.2/TEDY_F0/STM32F070F6PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TEDY_F0.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+TEDY_F0.elf: $(OBJS) $(USER_OBJS) /home/owen/STM32CubeIDE/WAVE_player_workspace/TEDY_F0/STM32F070F6PX_FLASH.ld
+	arm-none-eabi-gcc -o "TEDY_F0.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0 -T"/home/owen/STM32CubeIDE/WAVE_player_workspace/TEDY_F0/STM32F070F6PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TEDY_F0.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

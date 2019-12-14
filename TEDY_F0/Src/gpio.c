@@ -148,7 +148,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 		if(PN532_Write_Tag(&tag))
 		{
 			FN_RM01_Play_Sound("reco");
-			HAL_Delay(750);
+			HAL_Delay(600);
 			FN_RM01_Record_Sound(file_name);
 
 			NFC_Clear_Tag(&tag);
@@ -164,6 +164,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 					if(memcmp(tag.ndefMessage.record[0].payload+3, file_name, 4) == 0)
 					{
 						FN_RM01_Play_Sound("done");
+						HAL_Delay(600);
 						file_num++;
 					}
 					else

@@ -34,7 +34,7 @@ int PN532_WriteCommand(uint8_t* cmd_data, uint8_t len)
 	cmd[cmd_len++] = 0x00;
 	
 	HAL_UART_Transmit(&huart1,&cmd[0],cmd_len,1000);
-	HAL_Delay(100);
+	HAL_Delay(50);
 	
 	get_rx_data_len(&data_return_len); 
 	if(data_return_len == 0)
