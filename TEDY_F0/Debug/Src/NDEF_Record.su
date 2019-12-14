@@ -1,0 +1,8 @@
+NDEF_Record.c:3:6:NDEF_Record_Init	16	static
+NDEF_Record.c:14:6:NDEF_Record_SetType	32	static
+NDEF_Record.c:20:6:NDEF_Record_SetId	32	static
+NDEF_Record.c:26:6:NDEF_Record_SetPayload	32	static
+NDEF_Record.c:32:9:NDEF_Record_GetEncodedSize	24	static
+NDEF_Record.c:48:6:NDEF_Record_Encode	32	static
+NDEF_Record.c:92:9:NDEF_Record_GetTnfByte	32	static
+NDEF_Record.c:111:6:NDEF_Record_Create_TextRecord	80	dynamic

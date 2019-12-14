@@ -1,0 +1,4 @@
+NDEF_Message.c:3:6:NDEF_Message_Init	24	static
+NDEF_Message.c:10:5:Get_NDEF_Message	80	static
+NDEF_Message.c:77:5:NDEF_Message_GetEncodeSize	24	static
+NDEF_Message.c:86:6:NDEF_Message_Encode	32	static

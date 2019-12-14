@@ -1,0 +1,10 @@
+Mifare_Classic.c:7:5:Mifare_Classic_Read	96	dynamic
+Mifare_Classic.c:51:5:Mifare_Classic_Authenicate_Block	48	static
+Mifare_Classic.c:73:5:Mifare_Classic_ReadDataBlock	24	static
+Mifare_Classic.c:97:5:Mifare_Classic_DecodeTlv	32	static
+Mifare_Classic.c:118:5:Mifare_Classic_GetNdefStartIndex	24	static
+Mifare_Classic.c:132:9:Mifare_Classic_GetBufferSize	24	static
+Mifare_Classic.c:149:5:Mifare_Classic_IsFirstBlock	16	static
+Mifare_Classic.c:157:5:Mifare_Classic_IsTrailerBlock	16	static
+Mifare_Classic.c:165:5:Mifare_Classic_Write	120	dynamic
+Mifare_Classic.c:218:5:Mifare_Classic_WriteDataBlock	48	static

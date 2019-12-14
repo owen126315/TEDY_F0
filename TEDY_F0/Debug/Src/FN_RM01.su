@@ -1,0 +1,6 @@
+FN_RM01.c:3:6:FN_RM01_Get_File_Num	32	static
+FN_RM01.c:21:5:FN_RM01_Play_Sound	40	static
+FN_RM01.c:48:5:FN_RM01_Record_Sound	32	static
+FN_RM01.c:75:5:FN_RM01_Stop_Record	16	static
+FN_RM01.c:95:5:FN_RM01_Remove_Sound	32	static
+FN_RM01.c:122:6:FN_RM01_Get_FileName	16	static

@@ -1,0 +1,7 @@
+Mifare_Ultralight.c:8:5:Mifare_Ultralight_Read	72	dynamic
+Mifare_Ultralight.c:43:9:Mifare_Ultralight_ReadPage	24	static
+Mifare_Ultralight.c:64:6:findNdefMessage	32	static
+Mifare_Ultralight.c:95:6:readCapabilityContainer	16	static
+Mifare_Ultralight.c:105:6:calculateBufferSize	8	static
+Mifare_Ultralight.c:117:5:Mifare_Ultralight_Write	72	dynamic
+Mifare_Ultralight.c:158:5:Mifare_Ultralight_WritePage	32	static

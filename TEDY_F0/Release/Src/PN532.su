@@ -1,0 +1,8 @@
+PN532.c:5:6:PN532_WakeUp	16	static
+PN532.c:13:5:PN532_WriteCommand	168	static
+PN532.c:50:5:PN532_Correct_AckFrame	16	static
+PN532.c:60:5:PN532_Correct_CheckSum	36	static
+PN532.c:72:6:PN532_SAMConfig	160	static
+PN532.c:93:5:PN532_InListPassiveTarget	160	static
+PN532.c:127:5:PN532_Read_Tag	8	static
+PN532.c:150:5:PN532_Write_Tag	8	static
